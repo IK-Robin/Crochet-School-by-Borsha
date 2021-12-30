@@ -151,10 +151,7 @@ iframe {
         align-content: center;
         align-items: center;
     }
-    .navLink {
-        padding: 1px;
-        
-    }
+ 
     .navLink:nth-child(7) {
         padding-right: 0;
     }
@@ -171,5 +168,23 @@ iframe {
         justify-content: center;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .navLink {
+        padding: 1px;
+        background-color: blue;
+        color: white;
+        margin: 1px;
+        border: 1px solid gold;
+        width: 339px;
+        justify-content: center;
+    }
+    .navLink a {
+        color: white;
+    }
+
+    .navLink:hover {
+        background-color: #FFFFFF;
+        color: black;
     }
 }
