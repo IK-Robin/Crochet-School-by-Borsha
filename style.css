@@ -185,6 +185,9 @@ iframe {
 
     .navLink:hover {
         background-color: #FFFFFF;
-        color: black;
+        
     }
+	.navLink a:hover{
+           color:black;
+	}
 }
