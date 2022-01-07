@@ -1,0 +1,41 @@
+.corsets {
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.corset {
+  margin: 20px 30px;
+  width: 305px;
+  padding: 15px;
+
+  height: 400px;
+}
+
+.corset img {
+  width: 100%;
+  height: 230px;
+}
+
+.details {
+  /* background-color: #fff; */
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+}
+.details .title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+.details .buySection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 100;
+}
